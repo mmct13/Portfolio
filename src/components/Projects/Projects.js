@@ -33,10 +33,19 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Projet UTT"
-              description="Un projet effectué à l'école pour évaluer nos compétences en PHP et en HTML/CSS/JS."
+                imgPath={bitsOfCode}
+                isBlog={false}
+                title="Projet UTT"
+                description="Un projet effectué à l'école pour évaluer nos compétences en PHP et en HTML/CSS/JS."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={emotion}
+                isBlog={false}
+                title="Drink Water"
+                description="Un projet d'application mobile qui permet de surveiller la consommation d'eau durant la journée."
             />
           </Col>
 
