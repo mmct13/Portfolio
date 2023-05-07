@@ -13,6 +13,12 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
+          <a className="purple" target='_blank' href={props.link}>
+          <Card.Link>
+              Lien de téléchargement
+          </Card.Link>
+          </a>
+
 
         {"\n"}
         {"\n"}

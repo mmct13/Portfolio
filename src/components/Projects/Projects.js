@@ -49,7 +49,18 @@ function Projects() {
             />
           </Col>
 
-          
+          <Col md={4} className="project-card">
+
+            <ProjectCard
+                imgPath={suicide}
+                isBlog={false}
+                title="Mon Frigo"
+                description="Cette application mobile a été conçue pour faire l'inventaire de votre refrigérateur."
+                link="https://drive.google.com/u/0/uc?id=15OdM3bazRWO4EqqSzqf1g6pcLsNCR_cb&export=download"
+            />
+          </Col>
+
+
         </Row>
       </Container>
     </Container>
