@@ -51,10 +51,15 @@ function Techstack() {
             <h5>Laravel</h5>
         </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-          <h5>Python</h5>
-      </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <DiPython />
+            <h5>Python</h5>
+        </Col>
+
+        <Col xs={4} md={2} className="tech-icons">
+            <DiGit />
+            <h5>Git</h5>
+        </Col>
 
     </Row>
   );
