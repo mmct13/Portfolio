@@ -6,6 +6,8 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillMail,
+  AiFillPhone
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -53,6 +55,26 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
+                    href="mailto:marshallchrist@yahoo.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                >
+                  <AiFillMail />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                    href="tel:002250788207818"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                >
+                  <AiFillPhone />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
                   href="https://github.com/mmct13"
                   target="_blank"
                   rel="noreferrer"
@@ -81,6 +103,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/thsmarsh__"

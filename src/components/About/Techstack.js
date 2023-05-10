@@ -8,6 +8,7 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+    DiLaravel
 } from "react-icons/di";
 import {
   SiPytorch,
@@ -40,10 +41,15 @@ function Techstack() {
         <DiNodejs />
           <h5>NodeJs</h5>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-          <h5>ReactJS</h5>
-      </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <DiReact />
+            <h5>ReactJS</h5>
+        </Col>
+
+        <Col xs={4} md={2} className="tech-icons">
+            <DiLaravel />
+            <h5>Laravel</h5>
+        </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
