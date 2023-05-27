@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Salut à toi ! Je suis <span className="purple">N'Guessan Marshall Mouayé Christ-Trésor </span>
-            d' <span className="purple">Abidjan, Côte d'Ivoire.</span>
+            d'<span className="purple">Abidjan, Côte d'Ivoire.</span>
             <br />Je suis étudiant en Licence 3 d'Informatique
             <br />
             <br />

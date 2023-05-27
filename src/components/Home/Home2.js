@@ -31,7 +31,7 @@ function Home2() {
               <br />
               Je travaille aussi avec les frameworks &nbsp;
               <i>
-                <b className="purple">Laravel </b> and &nbsp;
+                <b className="purple">Laravel </b> et &nbsp;
                 <b className="purple">Angular </b>
 
               </i>
