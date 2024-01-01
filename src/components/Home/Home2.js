@@ -32,7 +32,7 @@ function Home2() {
               Je travaille aussi avec les frameworks &nbsp;
               <i>
                 <b className="purple">Laravel </b> et &nbsp;
-                <b className="purple">Angular </b>
+                <b className="purple">React </b>
 
               </i>
               <br />

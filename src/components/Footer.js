@@ -10,6 +10,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
+  let day = date.getDate();
+  let month = date.getMonth();
   return (
     <Container fluid className="footer">
       <Row>
@@ -17,7 +19,9 @@ function Footer() {
           <h3>Développé par N'GUESSAN MARSHALL</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} MMCT</h3>
+          <h3>
+            Copyright © {day}/{month}/{year} Marshall Christ
+          </h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -25,7 +29,7 @@ function Footer() {
               <a
                 href="https://github.com/mmct13"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -35,7 +39,7 @@ function Footer() {
               <a
                 href="https://twitter.com/MouayeC"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
@@ -45,7 +49,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/christ-marshall-n-guessan-b652851aa"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -55,7 +59,7 @@ function Footer() {
               <a
                 href="https://www.instagram.com/thsmarsh__"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />

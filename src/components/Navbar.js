@@ -11,6 +11,8 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import Snowman from "./Snowman";
+import NewYear from "./NewYear";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -35,7 +37,8 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <Snowman /> <img src={logo} className="img-fluid logo" alt="brand" />{" "}
+          <NewYear />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -87,10 +90,6 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Curriculum
               </Nav.Link>
             </Nav.Item>
-
-
-
-
           </Nav>
         </Navbar.Collapse>
       </Container>

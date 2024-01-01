@@ -9,6 +9,7 @@ function Type() {
           "Développeur",
           "WEB",
           "Mobile",
+          
 
         ],
         autoStart: true,

@@ -155,8 +155,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 1.9em !important;
+  width: 3.1em !important;
 }
 
 .navbar-nav .nav-link {
@@ -741,4 +741,16 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.nyear {
+  width: 80px;
+  height: 40px;
+  margin-left: 13px;
+}
+
+.snom {
+  width: 40px;
+  height: 40px;
+  margin-right: 13px;
 }
