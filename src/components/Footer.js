@@ -10,8 +10,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
-  let day = date.getDate();
-  let month = date.getMonth();
   return (
     <Container fluid className="footer">
       <Row>
@@ -20,7 +18,7 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>
-            Copyright © {day}/{month}/{year} Marshall Christ
+            Copyright © {year} Marshall Christ
           </h3>
         </Col>
         <Col md="4" className="footer-body">

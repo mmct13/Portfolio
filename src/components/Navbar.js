@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
+import logo from "../Assets/mmct.png";
 import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
@@ -11,8 +11,7 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
-import Snowman from "./Snowman";
-import NewYear from "./NewYear";
+
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -37,8 +36,8 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <Snowman /> <img src={logo} className="img-fluid logo" alt="brand" />{" "}
-          <NewYear />
+          <img src={logo} className="img-fluid logo" alt="brand" />
+          
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

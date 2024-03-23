@@ -32,7 +32,7 @@ function Home2() {
               Je travaille aussi avec les frameworks &nbsp;
               <i>
                 <b className="purple">Laravel </b> et &nbsp;
-                <b className="purple">React </b>
+                <b className="purple">NextJS </b>
 
               </i>
               <br />
@@ -78,7 +78,7 @@ function Home2() {
                   href="https://github.com/mmct13"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>

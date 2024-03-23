@@ -155,8 +155,9 @@ button:focus {
 }
 
 .logo {
-  height: 1.9em !important;
-  width: 3.1em !important;
+  height: 2.1em !important;
+  width: 6.1em !important;
+  border-radius: 14px;
 }
 
 .navbar-nav .nav-link {
