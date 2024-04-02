@@ -10,6 +10,9 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
+        <Card.Link href={props.link} target="_blank" rel="noopener noreferrer">
+          {props.link}
+        </Card.Link>
           
 
 
