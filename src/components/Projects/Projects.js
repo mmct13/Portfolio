@@ -7,6 +7,7 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 import bnbImg from "../../Assets/Projects/bnbimg.png";
 import monjeton from "../../Assets/Projects/monjton.png"
 import xpose from "../../Assets/Projects/xpose.png";
+import santerich from "../../Assets/Projects/santerich.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -66,13 +67,24 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath = {xpose}
+              imgPath={xpose}
               isBlog={false}
               title="X'Pose"
               description="Xpose est une plateforme web dédiée aux commerçants des réseaux sociaux tels que WhatsApp, TikTok et Instagram. Les utilisateurs peuvent publier des articles et être contactés directement sur leurs réseaux pour passer des commandes, simplifiant ainsi le processus de vente en ligne."
               link="https://xpose-tan.vercel.app/"
-              />
+            />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={santerich}
+              isBlog={false}
+              title="SanteRich"
+              description="SanteRich est un catalogue en ligne de produits LongRich commandables via WhatsApp. Fait avec NextJS et Tailwind CSS; les produits sont stockés sur Firebase."
+              link="https://santerich.vercel.app/"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
