@@ -45,6 +45,7 @@ function Projects() {
               isBlog={false}
               title="Application de renommage d'image"
               description="Un projet d'application de renommage d'image en Python avec une interface graphique en Tkinter qui permet de renommer plusieurs images en même temps."
+              link='https://github.com/mmct13/rennomage-GUI'
             />
           </Col>
 
