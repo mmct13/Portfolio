@@ -8,6 +8,7 @@ import bnbImg from "../../Assets/Projects/bnbimg.png";
 import monjeton from "../../Assets/Projects/monjton.png"
 import xpose from "../../Assets/Projects/xpose.png";
 import santerich from "../../Assets/Projects/santerich.png";
+import currency from "../../Assets/Projects/money-converter.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -82,6 +83,16 @@ function Projects() {
               title="SanteRich"
               description="SanteRich est un catalogue en ligne de produits LongRich commandables via WhatsApp. Fait avec NextJS et Tailwind CSS; les produits sont stockés sur Firebase."
               link="https://santerich.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={currency}
+              isBlog={false}
+              title="Convertisseur de devises"
+              description="Convertisseur de devises est une application mobile développée en React Native et qui permet de convertir de l'argent en dollars, euros, pounds..."
+              link="https://github.com/mmct13/money-convertiser"
             />
           </Col>
 
